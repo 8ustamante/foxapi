@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: #fbfbfb;
+}
+
+.link-nav>li>a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.github{
+    background-color:black;
+    color: #fbfbfb !important;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    border-radius: 0.9rem;
+}
+
+.github:hover{
+    background-color: #1c1c1c;
+    
+}
+
+.div-logo{
+    display: flex;
+}
+
+.div-logo>p{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.texto-center{
+    text-align: center !important;
+}
+
+.gen-img{
+    width: 250px;
+    border: 2px solid #1c1c1c;
+    border-radius: 1rem;
+    background-size: cover;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 20px 0px 20px;
+    padding: 15px 0px 0px 0;
+}
+
+.link-nav{
+    display: flex;
+    justify-content: end;
+}
+
+.profileGit{
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 80%;
+}
+
+.link-nav>li{
+    margin-left: 3rem;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 12px;
+}
+
+.contenedor{
+    margin: 0 20px 0px 20px;
+    padding: 15px 0px 0px 0;
+}
+
+.mrt-1{
+    margin-top: 1.5rem;
+}
+
+.mrt-08{
+    margin-top: 0.8rem;
+}
+
+.btn-gen-img{
+    padding: 1rem;
+    background-color: #1c1c1c;
+    color: white;
+    border-radius: 1.2rem;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn-gen-img:hover{
+    background-color: #100f0f;
+}
+
+.contenedor-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.carta{
+    margin: 2rem 0 1rem 0;
+}
+
+.img-carta{
+    border: 1px solid #100f0f;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+@media (width < 600px) {
+    .header{
+        display: block;
+        text-align: center;
+    }
+    .link-nav{
+        display: flex;
+        margin-top: 0.8rem;
+        justify-content: center;
+    }
+    .contenedor-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

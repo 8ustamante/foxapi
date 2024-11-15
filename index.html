@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOXAPI</title>
+    <link rel="shortcut icon" href="assets/img/zoro-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <div class="div-logo">
+                    <img id="profile-github" class="profileGit">
+                    <p><strong>FOXAPI</strong></p>
+                </div>
+            </div>
+            <div>
+                <ul class="link-nav">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="https://github.com/8ustamante" class="github" target="_blank">Github</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="contenedor">
+        <div class=" ">
+            <div class="texto-center" id="inicio">
+                <h1>IMAGENES DE ZORROS</h1>
+                <p>¡Encuentra imagenes de zorros aleatorios y diviertete!</p>
+            </div>
+            <div class="mrt-08 texto-center">
+                <img src="https://randomfox.ca/images/9.jpg" class="gen-img" alt="">
+                <div class="texto-center mrt-1">
+                    <button type="button" class="btn-gen-img">Obtener otra imagen</button>
+                    <p style="font-size: 10px; padding-top: 10px;">* Presiona el boton para obtener una imagen aleatoria *</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="texto-center mrt-1">Historial</h3>
+                <div class="contenedor-cards" id="contenedorCards"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <template id="templateCartas">
+        <div class="carta">
+            <img src="https://randomfox.ca/images/18.jpg" class="img-carta" width="150px" alt="">
+        </div>
+    </template>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
